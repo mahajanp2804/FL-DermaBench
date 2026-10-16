@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "FL-DermaBench: Benchmarking FedAvg and FedProx against Centralized Training under IID and Non-IID Settings"
+authors:
+  - family-names: Mahajan
+    given-names: Pranav
+  - family-names: Chauhan
+    given-names: Hardik
+  - family-names: Chaturvedi
+    given-names: Sumukh
+  - family-names: Gaur
+    given-names: Ankush
+license: MIT
+repository-code: "https://github.com/YOUR-USERNAME/FL-DermaBench"
