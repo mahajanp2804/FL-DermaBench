@@ -1,0 +1,14 @@
+hospitals,stragglers_pct,method,mu,recipe,acc,auc,macro_f1,bal_acc,mel_recall,hospital_gap,delta_acc_vs_central,delta_auc_vs_central,best_round
+Centralized,,ResNet-18 (28),,aug+pre,0.795,0.948,0.626,0.611,0.502,,,,51
+IID,0,FedAvg,,aug+pre,0.684,0.927,0.563,0.642,0.646,0.046,-0.111,-0.021,26
+IID,0,FedProx,0.1,aug+pre,0.704,0.934,0.592,0.636,0.655,0.061,-0.091,-0.014,50
+IID,40,FedAvg,,aug+pre,0.669,0.921,0.498,0.614,0.655,0.065,-0.126,-0.027,28
+IID,40,FedProx,0.1,aug+pre,0.706,0.933,0.587,0.655,0.587,0.053,-0.089,-0.015,47
+IID,80,FedAvg,,aug+pre,0.662,0.923,0.524,0.645,0.646,0.065,-0.133,-0.025,72
+IID,80,FedProx,0.1,aug+pre,0.647,0.931,0.548,0.65,0.717,0.031,-0.148,-0.017,35
+Non-IID,0,FedAvg,,aug+pre+reg,0.746,0.893,0.421,0.412,0.0,0.719,-0.049,-0.055,51
+Non-IID,0,FedProx,0.1,aug+pre+reg,0.744,0.916,0.432,0.422,0.0,0.724,-0.051,-0.032,43
+Non-IID,40,FedAvg,,aug+pre+reg,0.714,0.887,0.309,0.296,0.0,0.722,-0.081,-0.061,100
+Non-IID,40,FedProx,0.1,aug+pre+reg,0.704,0.907,0.28,0.261,0.0,0.739,-0.091,-0.04,38
+Non-IID,80,FedAvg,,aug+pre+reg,0.701,0.833,0.229,0.244,0.0,0.705,-0.094,-0.114,96
+Non-IID,80,FedProx,0.1,aug+pre+reg,0.731,0.903,0.352,0.344,0.0,0.743,-0.064,-0.045,53

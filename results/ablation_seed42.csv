@@ -1,0 +1,5 @@
+recipe,accuracy,auc,macro_f1
+Benchmark recipe (from scratch, no augmentation),0.756,0.918,0.490
++ augmentation,0.774,0.931,0.542
++ ImageNet initialization,0.791,0.938,0.604
++ label smoothing and weight decay,0.776,0.936,0.520
